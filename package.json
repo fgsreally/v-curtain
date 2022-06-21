@@ -2,7 +2,7 @@
   "name": "v-curtain",
   "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle-cjs.js",
   "exports": {
     ".": {
       "import": "./dist/bundle-es.js",
