@@ -15,7 +15,6 @@ jobs:
       - name: build-example
         run: |
           yarn
-          yarn build
           yarn example:build
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
