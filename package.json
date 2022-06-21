@@ -1,0 +1,32 @@
+{
+  "name": "v-curtain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bundle-es.js",
+      "require": "./dist/bundle-cjs.js"
+    },
+    "./frag": {
+      "import": "./src/assets/fragment",
+      "require": "./src/assets/fragment"
+    },
+    "./vert": {
+      "import": "./src/assets/vertax",
+      "require": "./src/assets/vertax"
+    }
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "example:build": "npm -C examples/example run build",
+    "example:dev": "npm -C examples/example run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "curtainsjs": "^8.1.3"
+  }
+}
