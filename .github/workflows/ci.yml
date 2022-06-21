@@ -14,8 +14,9 @@ jobs:
       - uses: actions/setup-node@master # 设置 NodeJS 环境
       - name: build-example
         run: |
-          yarn
-          yarn example:build
+         npm i pnpm -g
+         pnpm i 
+         yarn example:build
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

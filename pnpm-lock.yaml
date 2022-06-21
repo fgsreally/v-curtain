@@ -16,7 +16,7 @@ importers:
       gsap: ^3.10.4
       v-curtain: workspace:^1.0.0
       vite: ^2.9.9
-      vue: ^3.2.25
+      vue: ^3.2.37
     dependencies:
       gsap: registry.npmmirror.com/gsap/3.10.4
       v-curtain: link:../..
